@@ -24,10 +24,6 @@ For example with database.db and keystore.jks files in the "ChatServer" folder:
 java -cp target/chatserver-1.0-SNAPSHOT-jar-with-dependencies.jar com.nuutti.chatserver.ChatServer database.db keystore.jks password
 ```
 
-This UML interaction diagram gives an overall view of the communication between the server and a client:
-![UML](umldiagram.png)  
-
-
 Course API requirements:
 - REQ-001 All text in HTTP body must be UTF-8
 - REQ-002 All content in the HTTP requests and responses must be JSON except for the error messages
@@ -37,5 +33,9 @@ Course API requirements:
 - REQ-006 HTTP headers must contain the content size in bytes and content type using standard HTTP headers
 - REQ-007 ALl HTTP requests expect for registration must contain authentication credentials
 - REQ-008 HTTP header Content-Type must be "application-json"
-- REQ-009 Client and server must use Last-Modified and If-Modified-Since headers with chat message requests and responses to make sure only recent data is provided by the server for each client
+- REQ-009 Client and server must use Last-Modified and If-Modified-Since headers with chat message requests and responses to make sure only recent data is provided by the server for each client    
+
+
+This UML interaction diagram gives an overall view of the communication between the server and a client:
+![UML](umldiagram.png)  
 
