@@ -1,5 +1,5 @@
 # ChatServer
-This is an https server I created for a university course.    
+This is an HTTPS server I created for a university course.    
 
 Features:  
 - HTTPS
