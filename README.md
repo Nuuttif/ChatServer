@@ -19,7 +19,7 @@ Running the server needs 3 arguments:
 - HTTPS certificate path and file name
 - Password of the certificate
 
-For example with database.db and keystore.jks files in the "ChatServer-main" folder:
+For example with database.db and keystore.jks files in the "ChatServer" folder:
 ```bash
 java -cp target/chatserver-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
