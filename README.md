@@ -31,7 +31,7 @@ Course API requirements:
 - REQ-004 All datetimes in HTTP headers must follow the "HTTP-date" format as defined by RFC 7231 with milliseconds
 - REQ-005 All binary data must be base64 encoded
 - REQ-006 HTTP headers must contain the content size in bytes and content type using standard HTTP headers
-- REQ-007 All HTTP requests expect for registration must contain authentication credentials
+- REQ-007 All HTTP requests except for registration must contain authentication credentials
 - REQ-008 HTTP header Content-Type must be "application-json"
 - REQ-009 Client and server must use Last-Modified and If-Modified-Since headers with chat message requests and responses to make sure only recent data is provided by the server for each client    
 
