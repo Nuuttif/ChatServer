@@ -21,7 +21,7 @@ Running the server needs 3 arguments:
 
 For example with database.db and keystore.jks files in the "ChatServer" folder:
 ```bash
-java -cp target/chatserver-1.0-SNAPSHOT-jar-with-dependencies.jar
+java -cp target/chatserver-1.0-SNAPSHOT-jar-with-dependencies.jar com.nuutti.chatserver.ChatServer database.db keystore.jks password
 ```
 
 This UML interaction diagram gives an overall view of the communication between the server and a client:
