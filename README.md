@@ -14,7 +14,7 @@ Compiling:
 mvn package
 ```
 
-Running the server needs 3 arguments:  
+Running the server requires 3 arguments:  
 - Path and file name to a database (database doesn't have to exist, database is created in the given path with the given name)
 - HTTPS certificate path and file name
 - Password of the certificate
