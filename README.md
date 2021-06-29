@@ -14,6 +14,12 @@ Compiling:
 mvn package
 ```
 
+The server uses sqlite3 drivers for the database.  
+Ubuntu:
+```bash
+sudo apt-get install sqlite3
+```
+
 Running the server requires 3 arguments:  
 - Path and file name to a database (database doesn't have to exist, database is created in the given path with the given name)
 - HTTPS certificate path and file name
