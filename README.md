@@ -22,7 +22,11 @@ Running the server requires 3 arguments:
 For example with database.db and keystore.jks files in the "ChatServer" folder:
 ```bash
 java -cp target/chatserver-1.0-SNAPSHOT-jar-with-dependencies.jar com.nuutti.chatserver.ChatServer database.db keystore.jks password
-```
+```  
+How to generate keystore.jks for testing:
+```bash
+keytool -genkey -alias alias -keyalg RSA -keystore keystore.jks -keysize 2048
+```  
 
 Course API requirements:
 - REQ-001 All text in HTTP body must be UTF-8
