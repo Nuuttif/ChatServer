@@ -2,11 +2,10 @@
 This is an HTTPS server I created for a university course.    
 
 Features:  
-- HTTPS
 - Authentication
 - SQL-database
 - Password hashing and salting
-- Multi threading  
+- Multi threaded
 - Uses Last-Modified and If-Modified-Since headers to save bandwith    
 
 Compiling:
